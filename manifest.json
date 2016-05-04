@@ -1,0 +1,19 @@
+// manifest.json
+{
+    "name": "加速 Google API",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+      "128": "icons/128.png"
+    },
+    "description": "用国内公共库地址替换 Google 库地址",
+    "background": {
+        "scripts": ["js/replaceUrl.js"]
+    },
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "webRequestBlocking",
+        "webRequest"
+    ]    
+}
